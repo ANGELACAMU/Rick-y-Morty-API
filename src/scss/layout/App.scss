@@ -1,12 +1,35 @@
-.header-image {
-    width: 420px;
-
-}
-
 .header {
     background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed; // me gusta que siempre se pueda leer el título
+    //position: absolute;
 }
+.header-image {
+    width: 420px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.app-container {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
 
 .main-container {
     background-color: black;
+    
 }

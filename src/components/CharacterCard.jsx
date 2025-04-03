@@ -6,7 +6,7 @@ function CharacterCard({ characterData }) {
   return (
     <div className="container-card">
       <li className="title-list">
-        <Link to={`/character/${characterData.id}`}>
+        <Link className="link-card" to={`/character/${characterData.id}`}>
           <img
             className="img-card"
             src={characterData.photo}

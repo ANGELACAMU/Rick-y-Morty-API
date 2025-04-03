@@ -1,15 +1,21 @@
 .cointainer-input{
+    margin-top: 150px;
     display: flex;
     align-items: center;
-        justify-content: center;
-
+    justify-content: center;
+    //position: absolute; no quiero que haga scroll
+    position: fixed;
+    margin-left: 30px;
+    
         
 }
 
 .input {
     width: 300px;
     padding: 7px;
-    border-radius: 20%;
-
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }

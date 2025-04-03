@@ -47,31 +47,33 @@ function App() {
 
   return (
     <>
-      <header className="header">
-        <img
-          className="header-image"
-          src={imageTittle}
-          alt="rick and morty tittle logo text"
-        />
-      </header>
-      <main className="main-container">
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <Filters onChangeName={handleFilterName} />
-                <CharacterList characters={filteredNameCharacter} />
-                <p>{message}</p>
-              </>
-            }
+      <div className="app-container">
+        <header className="header">
+          <img
+            className="header-image"
+            src={imageTittle}
+            alt="rick and morty tittle logo text"
           />
-          <Route
-            path="/character/:idCharacter"
-            element={<CharacterDetail character={character} />}
-          />
-        </Routes>
-      </main>
+        </header>
+        <main className="main-container">
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <Filters onChangeName={handleFilterName} />
+                  <CharacterList characters={filteredNameCharacter} />
+                  <p>{message}</p>
+                </>
+              }
+            />
+            <Route
+              path="/character/:idCharacter"
+              element={<CharacterDetail character={character} />}
+            />
+          </Routes>
+        </main>
+      </div>
     </>
   );
 }

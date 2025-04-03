@@ -2,10 +2,10 @@
 .container-detail{
     background-color: rgb(218, 28, 28);
     
-    @media (min-width:768px) {
+    /*@media (min-width:768px) {
             display: flex;
             
-        }
+        }*/
     
 }
 
@@ -14,9 +14,9 @@
     padding: 10px;
     border-radius: 10%;
 
-        @media (min-width:768px) {
+        /*@media (min-width:768px) {
             align-items: center;
-            }
+            }*/
 }
 
 .list-detail {
@@ -25,8 +25,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 15px;
 
-    @media (min-width:768px) {
+   /* @media (min-width:768px) {
             padding: 100px;
-        }
+        }*/
     
 }
