@@ -6,6 +6,7 @@
     flex-direction: column;
     position: fixed; // me gusta que siempre se pueda leer el título
     //position: absolute;
+    box-shadow: 0 60px 100px rgba(0, 0, 0, 5);
 }
 .header-image {
     width: 420px;
@@ -21,7 +22,7 @@
     width: 100%;
     background-color: black;
     display: flex;
-    flex-direction: row;
+    //flex-direction: row;
     justify-content: center;
 }
 
@@ -31,5 +32,5 @@
 
 .main-container {
     background-color: black;
-    
+
 }

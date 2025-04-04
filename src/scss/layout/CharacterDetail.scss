@@ -1,6 +1,14 @@
-
 .container-detail{
+    margin-top: 170px;
+    width: 100%;
+    height: 80%;
     background-color: rgb(218, 28, 28);
+    border-radius: 10px;
+    //position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     
     /*@media (min-width:768px) {
             display: flex;
@@ -10,9 +18,13 @@
 }
 
 .img-detail {
-    width: 430px;
-    padding: 10px;
+    width: 200px;
+    height: 200px;
+    
     border-radius: 10%;
+    margin-left: 30px;
+    box-shadow: 5px 7px 2px rgba(0, 0, 0, 0.8);
+    
 
         /*@media (min-width:768px) {
             align-items: center;
@@ -22,7 +34,7 @@
 .list-detail {
     text-align: center;
     font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Pangolin";
     padding: 15px;
 
    /* @media (min-width:768px) {
@@ -30,4 +42,31 @@
         }
             */
     
+}
+
+.name-character-detail {
+    font-family: "Lacquer", system-ui;
+    font-size: 50px;
+    margin: 20px;
+   
+    /* Degradado con varios colores */
+    background-image: linear-gradient(to right, chartreuse, rgb(0, 81, 255) , chartreuse);
+    -webkit-background-clip: text;
+    color: transparent;
+
+    
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 1);
+    
+    
+
+}
+
+.specie-character-detail{
+    font-family: "Mansalva", sans-serif;
+    font-size: 40px;
+}
+
+
+.status-character-detail{
+    font-family: "Mansalva", sans-serif;
 }
