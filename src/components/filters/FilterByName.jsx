@@ -13,6 +13,7 @@ function FilterByName({ onChangeName }) {
           className="input"
           type="text"
           id="name"
+          placeholder=" 🔎 Encuentra tu personaje"
           onChange={handleChange}
         />
       </div>

@@ -12,8 +12,8 @@ function CharacterCard({ characterData }) {
             src={characterData.photo}
             alt={characterData.name}
           />
-          <h4>{characterData.name}</h4>
-          <p>{characterData.specie}</p>
+          <h4 className="name-card">{characterData.name}</h4>
+          <p className="name-specie">{characterData.specie}</p>
         </Link>
       </li>
     </div>
